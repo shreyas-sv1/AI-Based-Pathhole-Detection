@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json.backup
+
+# Environment files and credentials
+.env
+.env*.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pt.temp
+.venv/
+venv/
+ENV/
+
+# Build artifacts
+dist/
+dist-ssr/
+build/
+*.local
+
+# Uploads / user media
+uploads/*
+!uploads/.gitkeep
+pothole-server/uploads/*
+!pothole-server/uploads/.gitkeep
+uploads_video/*
+!uploads_video/.gitkeep
+pothole-api/uploads_video/*
+!pothole-api/uploads_video/.gitkeep
+
+# Operating system & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

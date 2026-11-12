@@ -1,0 +1,21 @@
+# Node dependencies and build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pt.temp
+
+# Uploads / video output
+uploads_video/*
+!uploads_video/.gitkeep
+
+# Environment and editor
+.env
+.DS_Store
+.vscode/
+.idea/
